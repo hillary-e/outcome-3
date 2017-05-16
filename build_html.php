@@ -19,4 +19,27 @@ function html_image ($src, $caption, $alt) {
 HTML;
 
 }
+
+function html_full_page ($posts) {
+    echo <<<HTML
+<nav class="text-center">
+    <ul class="nav nav-pills center-pills">
+HTML;
+    foreach($posts as $post) {
+        echo "<li><a href='#{$post["anchor"]}'>{$post["short-title"]}</a></li>";
+    }
+
+    echo <<<HTML
+    </ul>
+</nav>
+<section>
+HTML;
+
+    foreach($posts as $post) {
+        html_article($post["anchor"],$post["title"],$post["paragraph"]);
+    }
+}
+    echo <<<HTML
+</section>
+HTML;
 ?>
