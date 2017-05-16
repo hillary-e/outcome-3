@@ -22,50 +22,46 @@ require_once("build_html.php");
             </div>
             <? html_full_page([
                 [
-                "anchor"=>"overview",
-                "title"=>"overview of the issue",
-                "short-title"=>"overview",
-                "paragraph"=>""
+                    "anchor"=>"overview",
+                    "title"=>"overview of the issue",
+                    "short-title"=>"overview",
+                    "paragraphs"=>[]
                 ],
                 [
-                "anchor"=>"how",
-                "title"=>"how is privacy being compromised?",
-                "short-title"=>"how is it compromised?",
-                "paragraph"=><<<PARA
-<p>
-On Social media, some people are exposing more data than they think. For example, most people are unaware that there is metadata associated with every post, such as location data. Some can even choose to broadcast their location with frequent “check-ins” - a highly popular feature on facebook. While your holiday snaps might look fun, if the person looking at those snaps knows what your home address is, you are trusting them not to burgle your house.  Most people don’t realise just how much metadata about you is being stored. It is like you saying “come stalk me”. Social media platforms such as facebook offer some privacy protection such as posting to friends only, and having your mobile phone number only shown to yourself. But facebook itself still has the data. 
-</p><p>When you pirate a movie, you should be worried, as the metadata can show up that you are downloading pirated content. The torrenting system works by many computers owning the content and sharing it to other computers who also request the same content. When the computers are uploading and downloading, they are sharing metadata of what they are doing. Because metadata is held for two years, it will take that long to erase your “footprint”. People who pirate are literally allowing someone to take a record of them pirating a film. It is really easy to track metadata from a certain IP address and then track who is/was in possession of the data. Metadata is able to be released in legal cases.
-</p><p>These days we are sharing lots more data than we ever did. Some people are sharing relatively sensitive information, an example is a “friend” shared the information about someone else having a diagnosis of cancer. Some people have total strangers as “friends” , and they are perfectly happy to broadcast every significant event in their life. Some people also choose to broadcast about the status of their sex lives, which could lead to shaming. 
-</p>
-<h3>Summary</h2>
-<p>
-People sharing metadata is a problem because metadata is exposing more and more private information about people. On social media, the amount of personal information that we are freely giving away is enormous. We are also happy to be “friends” with heaps of people who may or may not be strangers. Those “friends” or “followers” are able to see the information we post.  The overwhelming amount of information could be potentially used for identity theft. A lot of people are unaware that their privacy is being taken away from them. 
-</p>
-PARA
+                    "anchor"=>"how",
+                    "title"=>"how is privacy being compromised?",
+                    "short-title"=>"how is it compromised?",
+                    "paragraphs"=>[
+["p","On Social media, some people are exposing more data than they think. For example, most people are unaware that there is metadata associated with every post, such as location data. Some can even choose to broadcast their location with frequent “check-ins” - a highly popular feature on facebook. While your holiday snaps might look fun, if the person looking at those snaps knows what your home address is, you are trusting them not to burgle your house.  Most people don’t realise just how much metadata about you is being stored. It is like you saying “come stalk me”. Social media platforms such as facebook offer some privacy protection such as posting to friends only, and having your mobile phone number only shown to yourself. But facebook itself still has the data."], 
+["p","When you pirate a movie, you should be worried, as the metadata can show up that you are downloading pirated content. The torrenting system works by many computers owning the content and sharing it to other computers who also request the same content. When the computers are uploading and downloading, they are sharing metadata of what they are doing. Because metadata is held for two years, it will take that long to erase your “footprint”. People who pirate are literally allowing someone to take a record of them pirating a film. It is really easy to track metadata from a certain IP address and then track who is/was in possession of the data. Metadata is able to be released in legal cases."],
+["p","These days we are sharing lots more data than we ever did. Some people are sharing relatively sensitive information, an example is a “friend” shared the information about someone else having a diagnosis of cancer. Some people have total strangers as “friends” , and they are perfectly happy to broadcast every significant event in their life. Some people also choose to broadcast about the status of their sex lives, which could lead to shaming."],
+["h2","Summary"],
+["p","People sharing metadata is a problem because metadata is exposing more and more private information about people. On social media, the amount of personal information that we are freely giving away is enormous. We are also happy to be “friends” with heaps of people who may or may not be strangers. Those “friends” or “followers” are able to see the information we post.  The overwhelming amount of information could be potentially used for identity theft. A lot of people are unaware that their privacy is being taken away from them. "]
+                    ]
                 ],
                 [
-                "anchor"=>"why",
-                "title"=>"why is privacy being compromised?",
-                "short-title"=>"why is it compromised?",
-                "paragraph"=>""
+                    "anchor"=>"why",
+                    "title"=>"why is privacy being compromised?",
+                    "short-title"=>"why is it compromised?",
+                    "paragraphs"=>[]
                 ],
                 [
-                "anchor"=>"whoimprove",
-                "title"=>"is anyone doing anything to improve privacy?",
-                "short-title"=>"is anyone doing anything?",
-                "paragraph"=>""
+                    "anchor"=>"whoimprove",
+                    "title"=>"is anyone doing anything to improve privacy?",
+                    "short-title"=>"is anyone doing anything?",
+                    "paragraphs"=>[]
                 ],
                 [
-                "anchor"=>"howimprove",
-                "title"=>"what can we do about it?",
-                "short-title"=>"how to improve",
-                "paragraph"=>""
+                    "anchor"=>"howimprove",
+                    "title"=>"what can we do about it?",
+                    "short-title"=>"how to improve",
+                    "paragraphs"=>[]
                 ],
                 [
-                "anchor"=>"ourview",
-                "title"=>"what we think",
-                "short-title"=>"what we think",
-                "paragraph"=>""
+                    "anchor"=>"ourview",
+                    "title"=>"what we think",
+                    "short-title"=>"what we think",
+                    "paragraphs"=>[]
                 ],
             ]); ?>
         </div>

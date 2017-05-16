@@ -1,11 +1,19 @@
 <?php
-function html_article ($id, $title, $paragraph) {
+function html_article ($id, $title, $paragraphs) {
     echo <<<HTML
 <article>
     <a class="anchor" id="{$id}"></a>
     <i class="fa fa-adjust"></i>
     <h1>{$title}</h1>
-    <p>{$paragraph}</p>
+    <p>
+HTML;
+
+    foreach($paragraphs as $para) {
+        echo "<{$para[0]}>{$para[1]}</{$para[0]}>";
+    }
+
+    echo <<<HTML
+    </p>
 </article>
 HTML;
 }
@@ -36,7 +44,7 @@ HTML;
 HTML;
 
     foreach($posts as $post) {
-        html_article($post["anchor"],$post["title"],$post["paragraph"]);
+        html_article($post["anchor"],$post["title"],$post["paragraphs"]);
     }
 }
     echo <<<HTML
