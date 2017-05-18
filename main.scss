@@ -96,10 +96,29 @@ article {
         color: $c-red;
     }
 
+    .likebar {
+        border-top: 1px solid darkgray;
+        padding-top: 2px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+
+        p {
+            display: inline-block;
+            color: darkgray;
+            font-size: 14px;
+            margin: 0;
+        }
+    }
+
     button {
         width: 40px;
         height: 40px;
         padding: 5px;
+        color: darkgray;
+
+        &:focus {
+            outline: 0;
+        }
 
         i {
             font-size: 24px !important;
@@ -129,7 +148,7 @@ article {
         &.notclicked {
             pointer-events: none;
             i {
-                color: #000 !important;
+                color: lightgray !important;
             }
         }
     }

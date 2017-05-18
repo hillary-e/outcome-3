@@ -69,12 +69,25 @@ article {
     margin-top: 110px;
     font-size: 20px !important;
     color: #ff3b3f; }
+  article .likebar {
+    border-top: 1px solid darkgray;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    padding-left: 5px; }
+    article .likebar p {
+      display: inline-block;
+      color: darkgray;
+      font-size: 14px;
+      margin: 0; }
   article button {
     width: 40px;
     height: 40px;
     padding: 5px;
+    color: darkgray;
     border: none;
     background-color: transparent !important; }
+    article button:focus {
+      outline: 0; }
     article button i {
       font-size: 24px !important; }
     article button:hover {
@@ -91,7 +104,7 @@ article {
     article button.notclicked {
       pointer-events: none; }
       article button.notclicked i {
-        color: #000 !important; }
+        color: lightgray !important; }
   article a.anchor {
     display: block;
     width: 1px;

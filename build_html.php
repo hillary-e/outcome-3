@@ -15,8 +15,12 @@ HTML;
     echo <<<HTML
     </p>
     <div class="likebar">
+        <p>what do you think? </p>
         <button class="like"><i class="fa fa-thumbs-up"></i></button>
         <button class="dislike"><i class="fa fa-thumbs-down"></i></button>
+        <span class="pull-right" style="padding-top:5px;">
+            <a href="https://twitter.com/intent/tweet?text=Wow,%20you%20actually%20pressed%20the%20tweet%20button!" class="twitter-share-button" data-size="large" data-show-count="false">Tweet</a>
+        </span>
     </div>
 </article>
 HTML;
