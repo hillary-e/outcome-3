@@ -1,4 +1,5 @@
 var menuIsOut = false;
+var liked = [];
 
 $(document).ready(function(){
     if($(window).width() <=600) {
@@ -23,6 +24,11 @@ $(document).ready(function(){
         }
 
         menuIsOut = !menuIsOut;
+    });
+
+    $(".likebar button").click(function() {
+        $(this).addClass("clicked");
+        $(this).siblings().addClass("notclicked");
     });
 
     $( window ).resize(function() {
