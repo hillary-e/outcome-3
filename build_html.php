@@ -3,7 +3,7 @@ function html_article ($id, $title, $paragraphs) {
     echo <<<HTML
 <article>
     <a class="anchor" id="{$id}"></a>
-    <i class="fa fa-adjust"></i>
+    <i class="anchoring fa fa-adjust"></i>
     <h1>{$title}</h1>
     <p>
 HTML;
@@ -14,6 +14,10 @@ HTML;
 
     echo <<<HTML
     </p>
+    <div class="likebar">
+        <button class="like"><i class="fa fa-thumbs-up"></i></button>
+        <button class="dislike"><i class="fa fa-thumbs-down"></i></button>
+    </div>
 </article>
 HTML;
 }

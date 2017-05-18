@@ -88,12 +88,50 @@ article {
     h2 {
         font-size: 20px;
     }
-    i {
+    i.anchoring {
         float: left;
         margin-left: -30px;
         margin-top: 110px;
         font-size: 20px !important;
         color: $c-red;
+    }
+
+    button {
+        width: 40px;
+        height: 40px;
+        padding: 5px;
+
+        i {
+            font-size: 24px !important;
+        }
+
+        border: none;
+        background-color: transparent !important;
+
+        &:hover {
+            color: lighten($c-red,5);
+            i {
+                color: lighten($c-red,5);
+            }
+        }
+
+        &.clicked {
+            pointer-events: none;
+            color: $c-red;
+
+            &:hover {
+                color: $c-red;
+                i {
+                    color: $c-red;
+                }
+            }
+        }
+        &.notclicked {
+            pointer-events: none;
+            i {
+                color: #000 !important;
+            }
+        }
     }
 
     a.anchor {

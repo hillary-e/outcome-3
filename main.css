@@ -63,12 +63,35 @@ article {
     margin-top: 100px; }
   article h2 {
     font-size: 20px; }
-  article i {
+  article i.anchoring {
     float: left;
     margin-left: -30px;
     margin-top: 110px;
     font-size: 20px !important;
     color: #ff3b3f; }
+  article button {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    border: none;
+    background-color: transparent !important; }
+    article button i {
+      font-size: 24px !important; }
+    article button:hover {
+      color: #ff5558; }
+      article button:hover i {
+        color: #ff5558; }
+    article button.clicked {
+      pointer-events: none;
+      color: #ff3b3f; }
+      article button.clicked:hover {
+        color: #ff3b3f; }
+        article button.clicked:hover i {
+          color: #ff3b3f; }
+    article button.notclicked {
+      pointer-events: none; }
+      article button.notclicked i {
+        color: #000 !important; }
   article a.anchor {
     display: block;
     width: 1px;
