@@ -1,5 +1,11 @@
 <?php
 require_once("build_html.php");
+
+$placeholder_paragraph = [
+["p","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla finibus risus non risus mattis accumsan. Nam vestibulum justo a lobortis semper. Nunc pretium, dolor nec auctor scelerisque, nulla nisl semper quam, eget convallis nisi elit ut augue. Sed ornare magna ac malesuada suscipit. Vivamus finibus viverra blandit. Vestibulum mattis condimentum sapien ut dapibus. In consectetur velit felis, nec commodo velit mollis vel. In ut tempor dui. Pellentesque nunc felis, fringilla ac convallis quis, eleifend vitae neque. Sed a accumsan turpis. Phasellus ultricies, nisi vel varius malesuada, nisi nunc rhoncus ante, ac egestas diam neque sit amet massa. Nulla finibus sollicitudin enim a pretium. Vestibulum rutrum ut est a tempus. Nunc sagittis neque id venenatis tempus. Nulla facilisi. Duis aliquam gravida placerat."],
+["p","Phasellus consequat rhoncus justo eu commodo. Nunc sit amet congue nulla. Nullam ut sagittis nibh. Aliquam eget lectus eget augue blandit tristique. Nunc eu consectetur ipsum, nec molestie mauris. Integer nec massa nec magna posuere placerat luctus sed leo. Aenean accumsan laoreet vulputate. Pellentesque blandit, lectus ac congue consequat, elit enim consequat metus, sit amet tincidunt felis quam sit amet nisl. Phasellus et nibh quis tellus blandit sollicitudin tincidunt quis arcu. Vivamus nibh tortor, commodo pretium mi sit amet, hendrerit volutpat ante. Duis at risus eget elit tristique hendrerit. Suspendisse enim est, mollis quis feugiat sit amet, posuere eget dolor. Fusce congue sapien sed luctus pulvinar. Praesent viverra egestas rutrum. Nam viverra suscipit ipsum, in imperdiet neque laoreet vel. Proin egestas interdum vulputate."],
+["p","Duis congue nisi nec velit porttitor volutpat. Donec sem libero, eleifend nec libero ut, suscipit tempor magna. Mauris imperdiet, arcu id rhoncus aliquam, purus orci semper mauris, vitae euismod lectus augue at libero. Vivamus interdum felis ac tristique congue. Curabitur mattis, lacus at condimentum mattis, augue magna consectetur enim, nec tempus nisi nulla at tortor. Maecenas ornare, nisi a commodo finibus, lectus nunc pretium ex, in tempor eros odio et dolor. Duis sollicitudin, eros vitae vehicula condimentum, lectus nisi porttitor mauris, non congue massa neque at orci. Curabitur lobortis justo nibh, non condimentum nisi dictum ac. Nulla tempus mollis magna facilisis scelerisque. Ut porta vehicula maximus. In nisi felis, ultricies quis lobortis in, tristique non dui."]
+];
 ?>
 <!DOCTYPE html>
 <html>
@@ -12,6 +18,8 @@ require_once("build_html.php");
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="main.css">
+
+        <script src="twitter_widgets.js" charset="utf-8"></script>
         <script src="script.js"></script>
     </head>
     <body>
@@ -25,7 +33,10 @@ require_once("build_html.php");
                     "anchor"=>"overview",
                     "title"=>"overview of the issue",
                     "short-title"=>"overview",
-                    "paragraphs"=>[]
+                    "paragraphs"=>[
+["p","Issues of privacy have been a general concern for many years, however the problem has gained more awareness with the development of more technology and more social media platforms. Social media services are services that allow users to connect with others for entertainment, communication, and to post updates of their lives in the forms of text posts, images, videos or audio, and this is where the issue arises. Some users do not think about privacy when using social media, and will share sensitive data unknowing of the risks that are associated with the platforms. Multiple surveys have been taken to consider risks associated with the services, and how users feel about the privacy settings/features in place on them, and current information such as profits of social media services can suggest interesting points. Social media services rely on the users’ perceived lack of value for their data, and with Facebook still making profits, it suggests online privacy is still a big issue that needs to be taught to everyone, especially those who are beginning to use it for the first time. Recent surveys and research, including the Educational Testing Service, shows that millennials, a large percentage of social media users, scored the lowest of their peers in problem solving in technology-rich environments. An alarming survey suggests that a majority of millennials in the United States understand the privacy risks associated with the platforms, but had done too much damage already, and an incredible 75% would deactivate their accounts if another breach occurred. With millions of users, social media is a sea of information, and past posts can come back to haunt users later in life."],
+["p","Metadata, privacy settings and users simply sharing too much information can compromise privacy, and this information and more will be accessible on this website."]
+                    ]
                 ],
                 [
                     "anchor"=>"how",
@@ -59,19 +70,19 @@ require_once("build_html.php");
                     "anchor"=>"whoimprove",
                     "title"=>"is anyone doing anything to improve privacy?",
                     "short-title"=>"is anyone doing anything?",
-                    "paragraphs"=>[]
+                    "paragraphs"=>$placeholder_paragraph
                 ],
                 [
                     "anchor"=>"howimprove",
                     "title"=>"what can we do about it?",
                     "short-title"=>"how to improve",
-                    "paragraphs"=>[]
+                    "paragraphs"=>$placeholder_paragraph
                 ],
                 [
                     "anchor"=>"ourview",
                     "title"=>"what we think",
                     "short-title"=>"what we think",
-                    "paragraphs"=>[]
+                    "paragraphs"=>$placeholder_paragraph
                 ],
             ]); ?>
         </div>
