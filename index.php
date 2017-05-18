@@ -43,7 +43,17 @@ require_once("build_html.php");
                     "anchor"=>"why",
                     "title"=>"why is privacy being compromised?",
                     "short-title"=>"why is it compromised?",
-                    "paragraphs"=>[]
+                    "paragraphs"=>[
+["p","Our privacy is being compromised because we are exposing more and more information. When we are using navigation apps with GPS they can see the exact location where we have been. If we use those navigation apps with a user profile, they can save the locations with our profile, so one party can have heaps of location data."],
+["p","Those self driving cars that google uses for street view actually collects data from every domestic wifi network they passed. "],
+["p","Every email could be “read” by the server provider, eg if you have gmail, Google (the email provider) could “read” your email, potentially extracting the sender’s and receiver's information."],
+["h2","Advertising"],
+["p","Advertising is taking our information from sites such as facebook, and targeting us with ads. Those ads are specialised from our information, and every movement on your profile can be seen by advertisers. If the advertisers pitch a product that you like, they are making extra money from the sale they wouldn’t have otherwise had. "],
+["p","If you click a “like” button, several parties can have access to that information, and they can target you on things based on what you like. "],
+["p","“Cookies” (not the yummy choccie chip type) can track every user's history and web trail. "],
+["p","They could sell the information to more advertising agents make even more money."]
+
+                    ]
                 ],
                 [
                     "anchor"=>"whoimprove",

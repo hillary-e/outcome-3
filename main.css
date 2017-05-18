@@ -61,6 +61,8 @@ article {
   margin-top: -70px; }
   article h1 {
     margin-top: 100px; }
+  article h2 {
+    font-size: 20px; }
   article i {
     float: left;
     margin-left: -30px;
@@ -84,6 +86,7 @@ article {
 @media (max-width: 760px) {
   body {
     padding-top: 40px; }
+
   section {
     width: 100%;
     margin: 0; }
@@ -91,9 +94,11 @@ article {
       width: 100%;
       margin-left: 0;
       margin-right: 0; }
+
   .container-fluid {
     margin: 0 !important;
     padding: 0 !important; }
+
   nav {
     position: fixed;
     top: 60px;
@@ -113,10 +118,12 @@ article {
           background-color: #efefef; }
         nav ul li a:hover {
           background-color: transparent !important; }
+
   .header {
     padding-left: 0; }
     .header h1 {
       margin-left: 10px; }
+
   .menu {
     display: block;
     width: 60px;
@@ -132,3 +139,5 @@ article {
       .menu i .fa-close {
         margin-top: -2px;
         margin-left: -1px; } }
+
+/*# sourceMappingURL=main.css.map */
