@@ -28,7 +28,7 @@ $placeholder_paragraph = [
                 <div class="menu pull-left"><i class="fa fa-bars"></i></div>
                 <h1 class="pull-left">Outcome 3: <span class="">Privacy</span></h1>
             </div>
-            <? html_full_page([
+            <?php html_full_page([
                 [
                     "anchor"=>"overview",
                     "title"=>"overview of the issue",
