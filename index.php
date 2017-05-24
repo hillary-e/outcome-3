@@ -31,8 +31,8 @@ $placeholder_paragraph = [
             <?php html_full_page([
                 [
                     "anchor"=>"overview",
-                    "title"=>"overview of the issue",
-                    "short-title"=>"overview",
+                    "title"=>"Overview of the issue",
+                    "short-title"=>"Overview",
                     "paragraphs"=>[
 ["p","Issues of privacy have been a general concern for many years, however the problem has gained more awareness with the development of more technology and more social media platforms. Social media services are services that allow users to connect with others for entertainment, communication, and to post updates of their lives in the forms of text posts, images, videos or audio, and this is where the issue arises. Some users do not think about privacy when using social media, and will share sensitive data unknowing of the risks that are associated with the platforms. Multiple surveys have been taken to consider risks associated with the services, and how users feel about the privacy settings/features in place on them, and current information such as profits of social media services can suggest interesting points. Social media services rely on the users’ perceived lack of value for their data, and with Facebook still making profits, it suggests online privacy is still a big issue that needs to be taught to everyone, especially those who are beginning to use it for the first time. Recent surveys and research, including the Educational Testing Service, shows that millennials, a large percentage of social media users, scored the lowest of their peers in problem solving in technology-rich environments. An alarming survey suggests that a majority of millennials in the United States understand the privacy risks associated with the platforms, but had done too much damage already, and an incredible 75% would deactivate their accounts if another breach occurred. With millions of users, social media is a sea of information, and past posts can come back to haunt users later in life."],
 ["p","Metadata, privacy settings and users simply sharing too much information can compromise privacy, and this information and more will be accessible on this website."]
@@ -40,8 +40,8 @@ $placeholder_paragraph = [
                 ],
                 [
                     "anchor"=>"how",
-                    "title"=>"how is privacy being compromised?",
-                    "short-title"=>"how is it compromised?",
+                    "title"=>"How is privacy being compromised?",
+                    "short-title"=>"How is it compromised?",
                     "paragraphs"=>[
 ["p","On Social media, some people are exposing more data than they think. For example, most people are unaware that there is metadata associated with every post, such as location data. Some can even choose to broadcast their location with frequent 'check-ins' - a highly popular feature on facebook. While your holiday snaps might look fun, if the person looking at those snaps knows what your home address is, you are trusting them not to burgle your house.  Most people don’t realise just how much metadata about you is being stored. It is like you saying 'come stalk me'. Social media platforms such as facebook offer some privacy protection such as posting to friends only, and having your mobile phone number only shown to yourself. But facebook itself still has the data."], 
 ["p","When you pirate a movie, you should be worried, as the metadata can show up that you are downloading pirated content. The torrenting system works by many computers owning the content and sharing it to other computers who also request the same content. When the computers are uploading and downloading, they are sharing metadata of what they are doing. Because metadata is held for two years, it will take that long to erase your 'footprint'. People who pirate are literally allowing someone to take a record of them pirating a film. It is really easy to track metadata from a certain IP address and then track who is/was in possession of the data. Metadata is able to be released in legal cases."],
@@ -52,8 +52,8 @@ $placeholder_paragraph = [
                 ],
                 [
                     "anchor"=>"why",
-                    "title"=>"why is privacy being compromised?",
-                    "short-title"=>"why is it compromised?",
+                    "title"=>"Why is privacy being compromised?",
+                    "short-title"=>"Why is it compromised?",
                     "paragraphs"=>[
 ["p","Our privacy is being compromised because we are exposing more and more information. When we are using navigation apps with GPS they can see the exact location where we have been. If we use those navigation apps with a user profile, they can save the locations with our profile, so one party can have heaps of location data."],
 ["p","Those self driving cars that google uses for street view actually collects data from every domestic wifi network they passed. "],
@@ -68,16 +68,16 @@ $placeholder_paragraph = [
                 ],
                 [
                     "anchor"=>"whoimprove",
-                    "title"=>"is anyone doing anything to improve privacy?",
-                    "short-title"=>"is anyone doing anything?",
+                    "title"=>"Is anyone doing anything to improve privacy?",
+                    "short-title"=>"Is anyone doing anything?",
                     "paragraphs"=> [
 ["p","While it would be reassuring to hear that governments and policy leaders are working to improve cyber safety, it is unfortunately unreasonable. While governments have financial and legal sway over some private sectors, the bills suggested will either fall behind the advancements of technology and online platforms, or provide controversial bills like the Cyber Intelligence Sharing and Protection Act, which would allow private companies to share data with government agencies – without the fear of lawsuits. This has caused several ethical and moral concerns, however, despite these concerns, there is still enthusiasm for government action due to distrust in major online companies like Facebook and Google. Evidence suggests government action into this issue may be limited for now, so it is best for users of social media platforms to look past convenience and apply the best privacy for their benefit."]
                     ]
                 ],
                 [
                     "anchor"=>"howimprove",
-                    "title"=>"what can we do about it?",
-                    "short-title"=>"how to improve",
+                    "title"=>"What can we do about it?",
+                    "short-title"=>"How to improve",
                     "paragraphs"=>[
 ["p","As you are aware by now, people including yourself are sharing more personal data than ever before. Some strategies include basic methods such as erasing cookies, modifying privacy settings on your smartphone and logging out of sites once you have finished. You should be forgoing loyalty schemes that supermarkets offer eg “flybuys”, although you may be missing out on discounts, it is a poor return considering the amount of money they would make out of your information. "],
 ["p","Forgo google for more secure search engines such as “duck-duck go”, and use TOR browser for the ultimate privacy. Using disconnect.me can help you monitor and block tracking requests. There is a site called “aboutthedata.com” which can tell you potentially how much information companies have of you. The final tip is to occasionally do a thorough check of the available privacy settings - they do change, so make sure your data is not at risk. "],
@@ -100,8 +100,8 @@ $placeholder_paragraph = [
                 ],
                 [
                     "anchor"=>"ourview",
-                    "title"=>"what we think",
-                    "short-title"=>"what we think",
+                    "title"=>"What we think",
+                    "short-title"=>"What we think",
                     "paragraphs"=>[
 ["p","Our team’s point of view is that we think companies such as those for marketing keep too much metadata about us, and we need to be aware and concerned. Data retention is a growing concern as more and more highly personal information such as location is being recorded. Companies can sell that data to other companies and make money. Whats even worse is that everything you do on the internet is recorded by your ISP, and they keep the data for 2 years! "],
 ["p","Most people unfortunately don’t realise how much data they are sharing.  "],

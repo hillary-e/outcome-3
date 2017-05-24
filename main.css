@@ -3,7 +3,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   background-color: #efefef;
-  text-transform: lowercase;
+  /*text-transform: lowercase;*/
   font-family: 'Signika', sans-serif;
   padding-top: 100px; }
 
