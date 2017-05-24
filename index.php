@@ -70,19 +70,45 @@ $placeholder_paragraph = [
                     "anchor"=>"whoimprove",
                     "title"=>"is anyone doing anything to improve privacy?",
                     "short-title"=>"is anyone doing anything?",
-                    "paragraphs"=>$placeholder_paragraph
+                    "paragraphs"=> [
+["p","While it would be reassuring to hear that governments and policy leaders are working to improve cyber safety, it is unfortunately unreasonable. While governments have financial and legal sway over some private sectors, the bills suggested will either fall behind the advancements of technology and online platforms, or provide controversial bills like the Cyber Intelligence Sharing and Protection Act, which would allow private companies to share data with government agencies – without the fear of lawsuits. This has caused several ethical and moral concerns, however, despite these concerns, there is still enthusiasm for government action due to distrust in major online companies like Facebook and Google. Evidence suggests government action into this issue may be limited for now, so it is best for users of social media platforms to look past convenience and apply the best privacy for their benefit."]
+                    ]
                 ],
                 [
                     "anchor"=>"howimprove",
                     "title"=>"what can we do about it?",
                     "short-title"=>"how to improve",
-                    "paragraphs"=>$placeholder_paragraph
+                    "paragraphs"=>[
+["p","As you are aware by now, people including yourself are sharing more personal data than ever before. Some strategies include basic methods such as erasing cookies, modifying privacy settings on your smartphone and logging out of sites once you have finished. You should be forgoing loyalty schemes that supermarkets offer eg “flybuys”, although you may be missing out on discounts, it is a poor return considering the amount of money they would make out of your information. "],
+["p","Forgo google for more secure search engines such as “duck-duck go”, and use TOR browser for the ultimate privacy. Using disconnect.me can help you monitor and block tracking requests. There is a site called “aboutthedata.com” which can tell you potentially how much information companies have of you. The final tip is to occasionally do a thorough check of the available privacy settings - they do change, so make sure your data is not at risk. "],
+["p","By doing these tips, you will be more protected than most, but there might already be data about you, which may be hard to permanently remove.  "],
+// this is from later in the Google Doc
+["p","Recently online social media sites such as Facebook have started selling users metadata to allow for personalized advertisements. For example, if you liked a post on McDonald’s new burger, you would get advertisements on based on that. Things like this have created problems in current social media. "],
+["p","Another area that various sources have pointed out that could be improved upon is that privacy settings need to become more prominent and user-friendly. Many sites have their privacy settings tuck away behind multiple menus, making it unnecessarily hard to find for an average user or person."],
+["p","When you sign onto Facebook or Google, for example, you give both implicit and explicit permission to the respective Internet service provider to use part or all of the data associated with your activities in the manner specified by their Privacy Statement and Terms of Service agreement."],
+["p","Some ways you could improve privacy online include:"],
+["h2","Browser Settings"],
+["p","There are some easy things that can be done to configure a browser for better security and privacy. The basics include disabling cookies from foreign websites, from sites you haven't visited, also known as third-party cookies. Generally, you'll want to accept cookies from the sites you visit."],
+["p","Apple's Safari blocks third-party cookies by default; Mozilla intends to make this the default setting soon in Firefox, but for now you'll need to opt for the setting, You have to choose these settings in Microsoft's Internet Explorer and Google's Chrome."],
+["p","Also, newer versions of most Internet-browsers also have an option labeled “Do not track.” Which requests that a site disable their site tracking systems."],
+["h2","Two-step authentication"],
+["p","When it comes to security, passwords are becoming more and more hackable and less secure."],
+["p","Two-step authentication is a security method that is becoming more and more prominent."],
+["p","Two-step authentication involves the usual username and password setup, but additionally the service being logged into will send a multiple-digit  unique code to you in some way, a popular way of receiving this code is via SMS or texting but it could be emailed as well."],
+["p","Companies such as You-tube, Steam and Google are already trying to replace the old password system with two step-authentication."]
+                    ]
                 ],
                 [
                     "anchor"=>"ourview",
                     "title"=>"what we think",
                     "short-title"=>"what we think",
-                    "paragraphs"=>$placeholder_paragraph
+                    "paragraphs"=>[
+["p","Our team’s point of view is that we think companies such as those for marketing keep too much metadata about us, and we need to be aware and concerned. Data retention is a growing concern as more and more highly personal information such as location is being recorded. Companies can sell that data to other companies and make money. Whats even worse is that everything you do on the internet is recorded by your ISP, and they keep the data for 2 years! "],
+["p","Most people unfortunately don’t realise how much data they are sharing.  "],
+["p","With the amount of information stored, it could potentially lead to identity theft. "],
+["p","Sadly, to compound to the issue, the data may exist forever.  It is very easy to upload sensitive information such as location and activities you did with advancements made to internet connectivity (eg 4G), but still very hard to erase the trail. "],
+["p","Overall, we think that people should be concerned and it is important to regulate which company gets what information about us. We also think that they are overall storing too much information about us.    "]
+                    ]
                 ],
             ]); ?>
         </div>
